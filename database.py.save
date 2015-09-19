@@ -1,0 +1,16 @@
+import sqlite3
+
+db = sqlite3.connect("myDBfile.sqlite3")
+cursor = db.cursor()
+cursor.execute("""CREATE TABLE people
+    (id INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE NOT NULL,
+    name TEXT NOT NULL,
+    address TEXT,
+    age INTEGER)""" )
+
+db.commit()
+
+
+
+
+db.close()

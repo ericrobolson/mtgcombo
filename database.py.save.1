@@ -1,0 +1,16 @@
+# Eric Olson (c) 2015, MTGCOMBO
+# This file is used to initialize the database, and to load the JSON 
+# objects into it. 
+
+import sqlite3
+
+def f_init():
+  db = sqlite3.connect("AllCards.sqlite3")
+  cursor = db.cursor()
+  cursor.execute("""CREATE TABLE AllCards
+      (id INTEGER AUTOINCREMENT UNIQUE NOT NULL,
+      name TEXT UNIQUE NOT NULL,
+      cmc INTEGER NOT NULL,
+      colors INTEGER)""" )
+  db.commit()
+  db.close()
