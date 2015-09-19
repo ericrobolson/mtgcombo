@@ -6,14 +6,22 @@ import sqlite3
 import json
 
 # if the database doesn't exist, run this function to create it.
-def f_init():
+def f_init_database():
   db = sqlite3.connect("AllCards.sqlite3")
   cursor = db.cursor()
-  cursor.execute("""CREATE TABLE AllCards
+  # primary keys, and foreign keys.
+  # table for cards, colors and combos
+  cursor.execute('''CREATE TABLE AllCards
       (name TEXT PRIMARY KEY UNIQUE NOT NULL,
       cmc INTEGER,
-      colors TEXT,
-      text TEXT)""" )
+      text TEXT)''' )
+
+  cursor.execute("""CREATE TABLE AllColors
+     (color TEXT NOT NULL,
+     name TEXT NOT NULL, 
+     FOREIGN KEY (name) REFERENCES AllCards(name),
+     PRIMARY KEY (color, name))""")
+     
   db.commit()
   db.close()
 
@@ -30,33 +38,32 @@ def f_update_AllCards():
     for i in data:
       name = data[i]["name"]
       cmc = 0
-      colors = " "
       text = " "
-
       # cmc
       try:
         cmc = data[i]["cmc"]
       except:
         cmc = 0
-      
-      # colors
-      try:
-        colors = data[i]["colors"] 
-      except:
-        colors = "None"
-      
       # text
       try:
         text = data[i]["text"]
       except:
         text = " "
 
-  
-    # try to insert it into database
+      # try to insert it into database
       try:
         cursor = db.cursor()
-        t = [name, cmc, colors, text]
-        cursor.execute("INSERT INTO AllCards VALUES (?, ?, ? ,?)", (name, cmc, "N/A", text))
+        t = [name, cmc, text]
+        cursor.execute("INSERT INTO AllCards VALUES (?, ? ,?)", (name, cmc, text))
+
+        # insert colors for the card
+        try:
+          for c in data[i]["colors"]:
+            cursor.execute("INSERT INTO AllColors VALUES (?, ?)", (c, name))
+        except:
+          colors = "None"
+
+      # The card was entered already	
       except:
         print("The card: " + name + " is already entered.")
     
@@ -66,5 +73,5 @@ def f_update_AllCards():
   db.close()
 
 
-
+# f_init_database()
 f_update_AllCards()
