@@ -20,7 +20,8 @@ def f_init_database():
       (color TEXT NOT NULL,
       name TEXT NOT NULL, 
       FOREIGN KEY (name) REFERENCES AllCards(name),
-      PRIMARY KEY (color, name))""")
+      PRIMARY KEY (color, name))"""
+      )
 
   # table for combos
   cursor.execute("""CREATE TABLE AllCombos
@@ -98,7 +99,25 @@ def f_add_Combo(combo_name, card_name):
 
 
 
+
+def f_search():
+  db = sqlite3.connect("AllThings.sqlite3")
+  cursor = db.cursor()
+
+  # execute statement
+  cursor.execute("SELECT card FROM AllCombos WHERE name = 'COMBO123'")
+
+  print(cursor.fetchall())
+     
+  db.commit()
+  db.close()
+
+
+
+
+
+#f_init_database()
 #f_add_Combo("COMBO123", "Mountain")
 #f_add_Combo("COMBO123", "Krenko")
-#f_init_database()
 #f_update_AllCards()
+#f_search()
