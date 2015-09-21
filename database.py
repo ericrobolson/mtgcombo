@@ -7,31 +7,35 @@ import json
 
 # if the database doesn't exist, run this function to create it.
 def f_init_database():
-  db = sqlite3.connect("AllThings.sqlite3")
-  cursor = db.cursor()
-  # table for cards
-  cursor.execute('''CREATE TABLE AllCards
-      (name TEXT PRIMARY KEY UNIQUE NOT NULL,
-      cmc INTEGER,
-      text TEXT)''' )
+  try:
+    db = sqlite3.connect("AllThings.sqlite3")
+    cursor = db.cursor()
+    # table for cards
+    cursor.execute('''CREATE TABLE AllCards
+        (name TEXT PRIMARY KEY UNIQUE NOT NULL,
+        cmc INTEGER,
+        text TEXT)''' )
 
-  # table for colors
-  cursor.execute("""CREATE TABLE AllColors
-      (color TEXT NOT NULL,
-      name TEXT NOT NULL, 
-      FOREIGN KEY (name) REFERENCES AllCards(name),
-      PRIMARY KEY (color, name))"""
-      )
+    # table for colors
+    cursor.execute("""CREATE TABLE AllColors
+        (color TEXT NOT NULL,
+        name TEXT NOT NULL, 
+        FOREIGN KEY (name) REFERENCES AllCards(name),
+        PRIMARY KEY (color, name))"""
+        )
 
-  # table for combos
-  cursor.execute("""CREATE TABLE AllCombos
-      (name TEXT NOT NULL,
-      card TEXT NOT NULL,
-      FOREIGN KEY (card) REFERENCES AllCards(name),
-      PRIMARY KEY (name, card))""")
+    # table for combos
+    cursor.execute("""CREATE TABLE AllCombos
+        (name TEXT NOT NULL,
+        card TEXT NOT NULL,
+        FOREIGN KEY (card) REFERENCES AllCards(name),
+        PRIMARY KEY (name, card))""")
      
-  db.commit()
-  db.close()
+    db.commit()
+    db.close()
+
+  except:
+    print("Database exists.")
 
 
 # run this function to create/update card entries based off of AllCards.json
@@ -85,9 +89,13 @@ def f_update_AllCards():
 def f_add_Combo(combo_name, card_name):
   db = sqlite3.connect("AllThings.sqlite3")
   cursor = db.cursor()
+ 
+  
+#  cursor.execute("SELECT name FROM AllCards WHERE name = " + card_name)
 
   # enter the combo + card into the database
   try:
+    print(cursor.fetchall())
     cursor.execute("INSERT INTO AllCombos VALUES (?, ?)", 
         (combo_name, card_name))
   except:
@@ -105,7 +113,7 @@ def f_search():
   cursor = db.cursor()
 
   # execute statement
-  cursor.execute("SELECT card FROM AllCombos WHERE name = 'COMBO123'")
+  cursor.execute("SELECT card FROM AllCombos where name = 'COMBO2123'")
 
   print(cursor.fetchall())
      
@@ -116,8 +124,5 @@ def f_search():
 
 
 
-#f_init_database()
-#f_add_Combo("COMBO123", "Mountain")
-#f_add_Combo("COMBO123", "Krenko")
-#f_update_AllCards()
-#f_search()
+f_init_database()
+f_update_AllCards()
