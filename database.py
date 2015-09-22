@@ -90,9 +90,6 @@ def f_add_Combo(combo_name, card_name):
   db = sqlite3.connect("AllThings.sqlite3")
   cursor = db.cursor()
  
-  
-#  cursor.execute("SELECT name FROM AllCards WHERE name = " + card_name)
-
   # enter the combo + card into the database
   try:
     print(cursor.fetchall())
@@ -113,7 +110,7 @@ def f_search():
   cursor = db.cursor()
 
   # execute statement
-  cursor.execute("SELECT card FROM AllCombos where name = 'COMBO2123'")
+  cursor.execute("SELECT card FROM AllCombos where name = 'NecroticOoze+DeathbringerThoctar+PhyrexianDevourer'")
 
   print(cursor.fetchall())
      
@@ -121,8 +118,8 @@ def f_search():
   db.close()
 
 
+f_search()
 
-
-
-f_init_database()
-f_update_AllCards()
+# Update info
+#f_init_database()
+#f_update_AllCards()

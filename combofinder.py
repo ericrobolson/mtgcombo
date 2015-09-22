@@ -6,20 +6,23 @@
 # http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/
 # http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 import os
+import database
+
+
 
 
 #1: download files with lynx into text file; open file
-cmd = 'lynx -dump www.essentialmagic.com/COMBOS > output.txt'
+cmd = 'lynx -dump -nomargins -dont_wrap_pre  www.essentialmagic.com/COMBOS > output.txt'
 os.system(cmd)
 f = open('output.txt', 'r+')
 
 
-#2: go throuh each line in text file:
 
-## XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-## there is a potential error; where we have a combo with many cards on 
-## different lines. Need to fix this somehow.
+# this variable lets us know if there is a combo that bleeds over
+# to the next line. 0 for false, 1 for true
+linebleed = 0
 
+# go throuh each line in text file and add combos
 for line in f:
   line2 = line
   newlist = []  
@@ -48,16 +51,70 @@ for line in f:
 
   # make our list a new string
   s = "".join(newlist)
-  print(s)
-      
+  
+  # split our string s into a list of words
+  words = s.split()
+  w = []
+  # remove 'Buy' from words
+  for i in words:
+    if i != 'Buy':
+      w.append(i)
+  
+  # check to see if w fits the format 'card' + 'card'; use recursion
+  # isacombo lets us know if the string fits the combo format or not
+  isacombo = 0
+  index = 0
+  plus_index = []
+  preindex = 0
+  length_w = len(w)
 
-#3:   check if it fits the format [card] buy + [card] buy + [card] buy + ...
-#     if so, then create a new combo and enter it, otherwise, go to next line
+  # check if there is a '+', and if so, it's a combo. Grab the indexes of
+  # the '+'s so we can create the combo
+  for i in w:
+    if i == '+' and index < length_w:
+      isacombo = 1    
+      plus_index.append(index)
+
+    index +=1
+
+  # create the combo
+  if isacombo == 1:
+    index = 0
+    combo_name = "".join(w)
+    # add the cards to the combo	
+    for i in plus_index:
+      # add the cards between the +'s
+      if index < (len(plus_index) -1):
+        # enter it into the database
+        cardname = " ".join(w[preindex : (i)])
+        try:
+          database.f_add_Combo(combo_name, cardname)
+        except:
+          print("Error with card name: " + cardname)
+        preindex = i +1
+
+      # if it's the last +, add the cards before and after it
+      if index == (len(plus_index) - 1):
+        # enter card before + into the database
+        cardname = " ".join(w[preindex : (i)])
+        try:
+          database.f_add_Combo(combo_name, cardname)
+        except:
+          print("Error with card name: " + cardname)
+
+        # enter card after + into the database
+        cardname =" ".join(w[(plus_index[index] +1) :])
+        try:
+          database.f_add_Combo(combo_name, cardname)
+        except:
+          print("Error with card name: " + cardname)
+
+
+      index +=1 
 
 #4: go the the next page and repeat the process
 
 #close and delete the file
 f.close()
-
 cmd = 'rm output.txt'
 os.system(cmd)
