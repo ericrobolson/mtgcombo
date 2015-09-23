@@ -26,15 +26,15 @@ def f_GetText(http):
 driver = webdriver.Firefox()
 #driver.get("http://www.essentialmagic.com/COMBOS")
 #driver.get("http://www.essentialmagic.com/COMBOS/default.asp?t=&StartAt=801")
-driver.get("http://www.essentialmagic.com/COMBOS/default.asp?t=&StartAt=1501")
+driver.get("http://www.essentialmagic.com/COMBOS/default.asp?t=&StartAt=4991")
 
 
 # set loop to 1; then run to 500. Save results onto git, then
 # set loop to 500, then go to 1000. Repeat  
-loop = 150
+loop = 1
 
 
-while loop !=0 and loop <500:
+while loop !=0 and loop <1500:
   try:
     
     # input textise version into comboFind
