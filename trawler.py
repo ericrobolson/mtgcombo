@@ -23,11 +23,18 @@ def f_GetText(http):
   return http
 
 # Run through the entire webpage
-loop = 1
 driver = webdriver.Firefox()
-driver.get("http://www.essentialmagic.com/COMBOS")
+#driver.get("http://www.essentialmagic.com/COMBOS")
+#driver.get("http://www.essentialmagic.com/COMBOS/default.asp?t=&StartAt=801")
+driver.get("http://www.essentialmagic.com/COMBOS/default.asp?t=&StartAt=1501")
 
-while loop !=0:
+
+# set loop to 1; then run to 500. Save results onto git, then
+# set loop to 500, then go to 1000. Repeat  
+loop = 150
+
+
+while loop !=0 and loop <500:
   try:
     
     # input textise version into comboFind
