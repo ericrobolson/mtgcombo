@@ -110,7 +110,7 @@ def f_search():
   cursor = db.cursor()
 
   # execute statement
-  cursor.execute("SELECT card FROM AllCombos where name = 'NecroticOoze+DeathbringerThoctar+PhyrexianDevourer'")
+  cursor.execute("SELECT * FROM AllCombos")
 
   print(cursor.fetchall())
      
@@ -121,5 +121,5 @@ def f_search():
 #f_search()
 
 # Update info
-#f_init_database()
-#f_update_AllCards()
+# f_init_database()
+# f_update_AllCards()

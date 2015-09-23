@@ -9,20 +9,18 @@ import os
 import database
 import sys
 
-# 0: You can pass in the website to scan as an argument.
-if len(sys.argv) == 1:
-  cmd = 'lynx -dump -nomargins -dont_wrap_pre  www.essentialmagic.com/COMBOS > output.txt'
-  os.system(cmd)
-  f = open('output.txt', 'r+')
 
-elif len(sys.argv) ==2:
-  cmd = 'lynx -dump -nomargins -dont_wrap_pre ' + sys.argv[1] + ' > output.txt'
-  os.system(cmd)
-  f = open('output.txt', 'r+')
-  
-else:
-  print("No valid arguments for command line. Either enter in a website or nothing.")
-  sys.exit()
+
+# 0: You can pass in the website to scan as an argument.
+#if len(sys.argv) == 1:
+#  cmd = 'lynx -dump -nomargins -dont_wrap_pre  www.essentialmagic.com/COMBOS > output.txt'
+#  os.system(cmd)
+
+
+cmd = 'lynx -dump -nomargins -dont_wrap_pre ' + sys.argv[1] + ' > output.txt'
+os.system(cmd)
+
+f = open('output.txt', 'r+')
 
 # go throuh each line in text file and add combos
 for line in f:
@@ -78,7 +76,6 @@ for line in f:
       plus_index.append(index)
 
     index +=1
-
   # create the combo
   if isacombo == 1:
     index = 0
