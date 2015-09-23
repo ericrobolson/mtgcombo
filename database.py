@@ -118,7 +118,7 @@ def f_search():
   db.close()
 
 
-f_search()
+#f_search()
 
 # Update info
 #f_init_database()

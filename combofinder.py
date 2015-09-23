@@ -7,20 +7,22 @@
 # http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 import os
 import database
+import sys
 
+# 0: You can pass in the website to scan as an argument.
+if len(sys.argv) == 1:
+  cmd = 'lynx -dump -nomargins -dont_wrap_pre  www.essentialmagic.com/COMBOS > output.txt'
+  os.system(cmd)
+  f = open('output.txt', 'r+')
 
-
-
-#1: download files with lynx into text file; open file
-cmd = 'lynx -dump -nomargins -dont_wrap_pre  www.essentialmagic.com/COMBOS > output.txt'
-os.system(cmd)
-f = open('output.txt', 'r+')
-
-
-
-# this variable lets us know if there is a combo that bleeds over
-# to the next line. 0 for false, 1 for true
-linebleed = 0
+elif len(sys.argv) ==2:
+  cmd = 'lynx -dump -nomargins -dont_wrap_pre ' + sys.argv[1] + ' > output.txt'
+  os.system(cmd)
+  f = open('output.txt', 'r+')
+  
+else:
+  print("No valid arguments for command line. Either enter in a website or nothing.")
+  sys.exit()
 
 # go throuh each line in text file and add combos
 for line in f:
