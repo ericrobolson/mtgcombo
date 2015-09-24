@@ -10,6 +10,7 @@ def f_init_database():
   try:
     db = sqlite3.connect("AllThings.sqlite3")
     cursor = db.cursor()
+
     # table for cards
     cursor.execute('''CREATE TABLE AllCards
         (name TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -29,7 +30,8 @@ def f_init_database():
         (name TEXT NOT NULL,
         card TEXT NOT NULL,
         FOREIGN KEY (card) REFERENCES AllCards(name),
-        PRIMARY KEY (name, card))""")
+        PRIMARY KEY (name, card))"""
+        )
      
     db.commit()
     db.close()
@@ -109,16 +111,27 @@ def f_search():
   db = sqlite3.connect("AllThings.sqlite3")
   cursor = db.cursor()
 
-  # execute statement
-  cursor.execute("SELECT * FROM AllCombos")
 
+  # Example statement on how to select combos including two cards
+  cursor.execute("""SELECT * FROM (SELECT name AS n1 FROM AllCombos WHERE card = 'Heartless Hidetsugu') 
+      JOIN
+      (SELECT name AS n2 FROM AllCombos WHERE card =  'Overblaze') WHERE n1 == n2
+      """
+      )
+
+  # Example statement on how to select combos with one card
+  def f_one(card_name):
+    cursor.execute("SELECT * FROM AllCombos WHERE card = " + card_name)
+
+
+  f_one("Tainted Strike")
   print(cursor.fetchall())
      
   db.commit()
   db.close()
 
 
-#f_search()
+f_search()
 
 # Update info
 # f_init_database()
