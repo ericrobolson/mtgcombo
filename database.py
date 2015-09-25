@@ -121,17 +121,44 @@ def f_search():
 
   # Example statement on how to select combos with one card
   def f_one(card_name):
-    cursor.execute("SELECT * FROM AllCombos WHERE card = " + card_name)
+    cursor.execute("""SELECT * FROM(
+        SELECT name as c1 FROM AllCombos WHERE card = 'Clone')""")
 
 
   f_one("Tainted Strike")
-  print(cursor.fetchall())
+
+  # make the list of combos printable
+  l = cursor.fetchall()
+
+  # print the cards in the combo
+  for i in l:
+    c_n = ''.join(i[0])
+
+    cursor.execute("SELECT card FROM AllCombos WHERE name = '" + c_n + "'"
+        )
+    
+    # save as a list
+    j = cursor.fetchall()
+
+    # get the colors in each combo
+    c = []
+    for k in j:
+      card_name = ''.join(k)
+#      print(color_name)
+      # get color
+      cursor.execute("SELECT color FROM AllColors WHERE name = '" + card_name + "'")
+      c.append(cursor.fetchall())
+
+    # now, we can select the colors we want, and picking color COLORS = [],
+    # we can check if in c, every color matches COLORS
+
+    print(str(j) + str(c))
      
   db.commit()
   db.close()
 
 
-#f_search()
+f_search()
 
 # Update info
 # f_init_database()
