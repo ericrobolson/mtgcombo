@@ -107,26 +107,19 @@ def f_add_Combo(combo_name, card_name):
 
 
 
-def f_search():
+def f_search(card_name, ignore_colors = []):
   db = sqlite3.connect("AllThings.sqlite3")
   cursor = db.cursor()
 
-
   # Example statement on how to select combos including two cards
-  cursor.execute("""SELECT * FROM (SELECT name AS n1 FROM AllCombos WHERE card = 'Heartless Hidetsugu') 
-      JOIN
-      (SELECT name AS n2 FROM AllCombos WHERE card =  'Overblaze') WHERE n1 == n2
-      """
-      )
+#  cursor.execute("""SELECT * FROM (SELECT name AS n1 FROM AllCombos WHERE card = 'Heartless Hidetsugu') 
+#      JOIN
+#      (SELECT name AS n2 FROM AllCombos WHERE card =  'Overblaze') WHERE n1 == n2
+#      """
+#      )
 
   # Example statement on how to select combos with one card
-  def f_one(card_name):
-    cursor.execute("""SELECT * FROM(
-        SELECT name as c1 FROM AllCombos WHERE card = 'Clone')""")
-
-
-  f_one("Tainted Strike")
-
+  cursor.execute("SELECT * FROM(SELECT name as c1 FROM AllCombos WHERE card = '" + card_name + "')")
   # make the list of combos printable
   l = cursor.fetchall()
 
@@ -144,21 +137,44 @@ def f_search():
     c = []
     for k in j:
       card_name = ''.join(k)
-#      print(color_name)
+     
       # get color
       cursor.execute("SELECT color FROM AllColors WHERE name = '" + card_name + "'")
-      c.append(cursor.fetchall())
+      colors = cursor.fetchall()
+      c.append(colors)
 
     # now, we can select the colors we want, and picking color COLORS = [],
-    # we can check if in c, every color matches COLORS
+    # we can check if in c, every color matches COLORS. It makes more sense
+    # to do it so that we select colors WE DON"T WANT. E.g. that way it can
+    # still display monocolored combos, as well as artifact combos.
 
-    print(str(j) + str(c))
+    # example:
+    # 1: pick colors you DON"T WANT
+    # for item in j, if it's colors match the colors WE DON"T WANT, remove it
+    to_print = 1
+    for z in c:
+      # if it's not a color we don't want:
+      for y in z:
+        for x in y:
+          for i_c in ignore_colors:
+            if x == i_c:
+              to_print = 0
+ 
+    if to_print == 1:
+      string = []
+      for z in j:
+        for y in z:
+          print(y)
+          string.append(y)
+#        print(str(j) + str(c))   ## Print the cards + color
+      print(" ")
      
   db.commit()
   db.close()
 
 
-f_search()
+# search for a card, ignore colors:
+f_search("Merieke Ri Berit", [])
 
 # Update info
 # f_init_database()
