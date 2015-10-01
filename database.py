@@ -10,6 +10,7 @@ import os
 
 COLORS = [('Blue'), ('Red'), ('Black'), ('White'), ('Green'), ('Colorless')]
 
+
 # if the database doesn't exist, run this function to create it.
 def f_init_database():
   try:
@@ -62,7 +63,6 @@ def f_update_colorless():
     name = n[0]
     cursor.execute("INSERT INTO AllColors VALUES (?, ?)", (c, name))
 
-
   db.commit()
   db.close()
 
@@ -80,6 +80,7 @@ def f_update_AllCards():
       name = data[i]["name"]
       cmc = 0
       text = " "
+
       # cmc
       try:
         cmc = data[i]["cmc"]
@@ -109,8 +110,7 @@ def f_update_AllCards():
       # The card was entered already	
       except:
         print("The card: " + name + " is already entered.")
-    
-   
+  
   # close and commit the database 
   db.commit()
   db.close()
@@ -152,10 +152,8 @@ def f_combofind(card_name, ignore_colors = []):
     JOIN
     (SELECT name as n2, card as card FROM AllCombos) WHERE n1 == n2""")
 
-
   # create new view without combos that contain certain color(s)
   i_c = "', '".join(ignore_colors)
-
 
   # Created a view with all cards/colors
   # now need to work on excluding combos of a certain color; can exclude
@@ -180,34 +178,24 @@ def f_combofind(card_name, ignore_colors = []):
     SELECT n1 AS n2, card FROM v_f WHERE n1 == n2
   """)
 
-
   # SELECT the final table
   cursor.execute("""SELECT DISTINCT GROUP_CONCAT(card, '; ') FROM v_final GROUP BY n1""") 
 
   # print the final table of combos
   results = cursor.fetchall()
   for i in results:
-
     # split combo into cards, and print
     combo = i[0].split("; ")
     for j in combo:
       print(j)
     print()
 
-
   db.close() 
 
 
-# search for a card, ignore colors:
-
-
-
-
-# Update info
-# f_init_database()
-#f_update_colorless()
-# f_update_AllCards()
-
+#############################################################################
+############### Command Line Interface to search for combos #################
+#############################################################################
 
 if len(sys.argv) > 1:
   # format: python3 database.py CARDNAME COLOR1 COLOR2 ETC

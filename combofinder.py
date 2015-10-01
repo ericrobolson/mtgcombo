@@ -2,25 +2,17 @@
 # This file is used to add combos from www.essentialmagic.com/COMBOS
 # to populate the database.
 # Use lynx to get text dumps, and use Selenium to get the webpages
-# Use Beautiful Soup???
-# http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/
-# http://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
 import os
 import database
 import sys
 
 
-
-# 0: You can pass in the website to scan as an argument.
-#if len(sys.argv) == 1:
-#  cmd = 'lynx -dump -nomargins -dont_wrap_pre  www.essentialmagic.com/COMBOS > output.txt'
-#  os.system(cmd)
-
-
+# You can pass in the website to scan as an argument.
 cmd = 'lynx -dump -nomargins -dont_wrap_pre ' + sys.argv[1] + ' > output.txt'
 os.system(cmd)
-
 f = open('output.txt', 'r+')
+
 
 # go throuh each line in text file and add combos
 for line in f:
@@ -76,6 +68,7 @@ for line in f:
       plus_index.append(index)
 
     index +=1
+
   # create the combo
   if isacombo == 1:
     index = 0
@@ -108,10 +101,8 @@ for line in f:
         except:
           print("Error with card name: " + cardname)
 
-
       index +=1 
 
-#4: go the the next page and repeat the process
 
 #close and delete the file
 f.close()
