@@ -4,6 +4,11 @@
 
 import sqlite3
 import json
+import sys
+import os
+
+
+COLORS = [('Blue'), ('Red'), ('Black'), ('White'), ('Green'), ('Colorless')]
 
 # if the database doesn't exist, run this function to create it.
 def f_init_database():
@@ -204,4 +209,28 @@ def f_combofind(card_name, ignore_colors = []):
 # f_update_AllCards()
 
 
-f_combofind("Mikaeus, the Unhallowed", [('Blue'),('Green'),('White')])
+if len(sys.argv) > 1:
+  # format: python3 database.py CARDNAME COLOR1 COLOR2 ETC
+  card = sys.argv[1]
+  colors = []  
+  index = 0
+
+  # check to see if it's a real card
+  db = sqlite3.connect("AllThings.sqlite3")
+  cursor = db.cursor()
+  cursor.execute("SELECT * FROM AllCards WHERE name = '" + card + "'")
+  results = cursor.fetchall()
+  if not results:
+    print("Enter in format: 'CARDNAME' Red Blue White Black Green Colorless")
+    print("Note: Colors are optional and may be entered in any order")
+  db.close()
+  
+  # populate the colors
+  for i in sys.argv:
+    if index >1:
+      if i in COLORS:
+        colors.append(i)
+    index +=1
+
+  # search for the combo
+  f_combofind(card, colors)

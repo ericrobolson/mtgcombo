@@ -1,14 +1,15 @@
 # Eric Olson (c) 2015,  MTGCOMBO
 
 MTG Combo finder
-This is a program that is build to allow users to select cards, then to 
+  This is a program that is build to allow users to select cards, then to 
 find overlapping combos/enter in new combos.
 
-NOTE: The database, AllThings.sqlite3, is finished.
+The database, AllThings.sqlite3, is finished. No need to update unless needed.
 
 database.py:
   This is used to set up the initial database full of cards. It is also used to enter in combinations, 
-as well as search. 
+as well as search. You can search for a combo using the format: "python3 database.py CARDNAME RED GREEN ... "
+in the command line.
 
 combofinder.py:
   This is used to crawl a website to populate our database with combinations. You can enter in an http 
