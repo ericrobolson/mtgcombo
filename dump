@@ -1,36 +1,100 @@
-Black Sunʼs Zenith
-Flourishing Defenses
- 
-Ambush Commander
-Devoted Druid
-Flourishing Defenses
- 
-Catharsʼ Crusade
-Devoted Druid
-Flourishing Defenses
- 
-Aboroth
-Flourishing Defenses
- 
-Flourishing Defenses
-Witherscale Wurm
- 
-Devoted Druid
-Flourishing Defenses
-Umbral Mantle
- 
-Coat of Arms
-Devoted Druid
-Flourishing Defenses
- 
-Flourishing Defenses
-Grim Poppet
-Wild Pair
- 
-Flourishing Defenses
-Grim Poppet
- 
-Devoted Druid
-Flourishing Defenses
-Ursapine
- 
+('GlenElendraArchmage+Mikaeus,theUnhallowed', 'Glen Elendra Archmage', 'Blue')
+('GlenElendraArchmage+Mikaeus,theUnhallowed', 'Mikaeus, the Unhallowed', 'Black')
+('HeartlessSummoning+Mikaeus,theUnhallowed+SpikeFeeder', 'Heartless Summoning', 'Black')
+('HeartlessSummoning+Mikaeus,theUnhallowed+SpikeFeeder', 'Mikaeus, the Unhallowed', 'Black')
+('HeartlessSummoning+Mikaeus,theUnhallowed+SpikeFeeder', 'Spike Feeder', 'Green')
+('Mikaeus,theUnhallowed+PhyrexianDelver+WaketheDead', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+PhyrexianDelver+WaketheDead', 'Phyrexian Delver', 'Black')
+('Mikaeus,theUnhallowed+PhyrexianDelver+WaketheDead', 'Wake the Dead', 'Black')
+('Mikaeus,theUnhallowed+RetributionoftheAncients', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+RetributionoftheAncients', 'Retribution of the Ancients', 'Black')
+('Marchesa,theBlackRose+Mikaeus,theUnhallowed+Mikaeus,theUnhallowed', 'Marchesa, the Black Rose', 'Black')
+('Marchesa,theBlackRose+Mikaeus,theUnhallowed+Mikaeus,theUnhallowed', 'Marchesa, the Black Rose', 'Blue')
+('Marchesa,theBlackRose+Mikaeus,theUnhallowed+Mikaeus,theUnhallowed', 'Marchesa, the Black Rose', 'Red')
+('Marchesa,theBlackRose+Mikaeus,theUnhallowed+Mikaeus,theUnhallowed', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+SageofFables+AshnodʼsAltar', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+SageofFables+AshnodʼsAltar', 'Sage of Fables', 'Blue')
+('Mikaeus,theUnhallowed+SpikeWeaver', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+SpikeWeaver', 'Spike Weaver', 'Green')
+('Mikaeus,theUnhallowed+VampireHexmage+VampireHexmage', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+VampireHexmage+VampireHexmage', 'Vampire Hexmage', 'Black')
+('Mikaeus,theUnhallowed+SageofFables+RiptideShapeshifter', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+SageofFables+RiptideShapeshifter', 'Sage of Fables', 'Blue')
+('Mikaeus,theUnhallowed+SageofFables+RiptideShapeshifter', 'Riptide Shapeshifter', 'Blue')
+('Mikaeus,theUnhallowed+FumeSpitter+FumeSpitter', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+FumeSpitter+FumeSpitter', 'Fume Spitter', 'Black')
+('Mikaeus,theUnhallowed+Nevermaker+SageofFables', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Nevermaker+SageofFables', 'Nevermaker', 'Blue')
+('Mikaeus,theUnhallowed+Nevermaker+SageofFables', 'Sage of Fables', 'Blue')
+('Kokusho,theEveningStar+Mikaeus,theUnhallowed+CauldronofSouls', 'Kokusho, the Evening Star', 'Black')
+('Kokusho,theEveningStar+Mikaeus,theUnhallowed+CauldronofSouls', 'Mikaeus, the Unhallowed', 'Black')
+('Kokusho,theEveningStar+Mikaeus,theUnhallowed+CauldronofSouls', 'Cauldron of Souls', 'Colorless')
+('ShiftyDoppelganger+Mikaeus,theUnhallowed', 'Shifty Doppelganger', 'Blue')
+('ShiftyDoppelganger+Mikaeus,theUnhallowed', 'Mikaeus, the Unhallowed', 'Black')
+('Ghave,GuruofSpores+BloodPet+Mikaeus,theUnhallowed', 'Ghave, Guru of Spores', 'Black')
+('Ghave,GuruofSpores+BloodPet+Mikaeus,theUnhallowed', 'Ghave, Guru of Spores', 'Green')
+('Ghave,GuruofSpores+BloodPet+Mikaeus,theUnhallowed', 'Ghave, Guru of Spores', 'White')
+('Ghave,GuruofSpores+BloodPet+Mikaeus,theUnhallowed', 'Blood Pet', 'Black')
+('Ghave,GuruofSpores+BloodPet+Mikaeus,theUnhallowed', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+PuppeteerClique+GravePact', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+PuppeteerClique+GravePact', 'Puppeteer Clique', 'Black')
+('Mikaeus,theUnhallowed+PuppeteerClique+GravePact', 'Grave Pact', 'Black')
+('Mikaeus,theUnhallowed+ThopterSquadron+AshnodʼsAltar', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+ThopterSquadron+AshnodʼsAltar', 'Thopter Squadron', 'Colorless')
+('Mikaeus,theUnhallowed+DevotedDruid+LightningGreaves', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+DevotedDruid+LightningGreaves', 'Devoted Druid', 'Green')
+('Mikaeus,theUnhallowed+DevotedDruid+LightningGreaves', 'Lightning Greaves', 'Colorless')
+('Mikaeus,theUnhallowed+Triskelion', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Triskelion', 'Triskelion', 'Colorless')
+('Mikaeus,theUnhallowed+PithDriller+DevouringSwarm', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+PithDriller+DevouringSwarm', 'Pith Driller', 'Black')
+('Mikaeus,theUnhallowed+PithDriller+DevouringSwarm', 'Devouring Swarm', 'Black')
+('Mikaeus,theUnhallowed+Horobi,DeathʼsWail+BogardanHellkite', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Horobi,DeathʼsWail+BogardanHellkite', 'Bogardan Hellkite', 'Red')
+('HavocDemon+Mikaeus,theUnhallowed', 'Havoc Demon', 'Black')
+('HavocDemon+Mikaeus,theUnhallowed', 'Mikaeus, the Unhallowed', 'Black')
+('DeathbringerThoctar+Mikaeus,theUnhallowed', 'Deathbringer Thoctar', 'Black')
+('DeathbringerThoctar+Mikaeus,theUnhallowed', 'Deathbringer Thoctar', 'Red')
+('DeathbringerThoctar+Mikaeus,theUnhallowed', 'Mikaeus, the Unhallowed', 'Black')
+('DevotedDruid+Mikaeus,theUnhallowed', 'Devoted Druid', 'Green')
+('DevotedDruid+Mikaeus,theUnhallowed', 'Mikaeus, the Unhallowed', 'Black')
+('DevotedDruid+Mikaeus,theUnhallowed+Anythingthatgrantshaste(LightningGreaves,Anger,etc)', 'Devoted Druid', 'Green')
+('DevotedDruid+Mikaeus,theUnhallowed+Anythingthatgrantshaste(LightningGreaves,Anger,etc)', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+CauldronofSouls', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+CauldronofSouls', 'Cauldron of Souls', 'Colorless')
+('VishKal,BloodArbiter+Mikaeus,theUnhallowed', 'Vish Kal, Blood Arbiter', 'Black')
+('VishKal,BloodArbiter+Mikaeus,theUnhallowed', 'Vish Kal, Blood Arbiter', 'White')
+('VishKal,BloodArbiter+Mikaeus,theUnhallowed', 'Mikaeus, the Unhallowed', 'Black')
+('Kokusho,theEveningStar+Kokusho,theEveningStar+Mikaeus,theUnhallowed', 'Kokusho, the Evening Star', 'Black')
+('Kokusho,theEveningStar+Kokusho,theEveningStar+Mikaeus,theUnhallowed', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Workhorse', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Workhorse', 'Workhorse', 'Colorless')
+('Mikaeus,theUnhallowed+Teysa,OrzhovScion+GwyllionHedge-Mage', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Teysa,OrzhovScion+GwyllionHedge-Mage', 'Teysa, Orzhov Scion', 'Black')
+('Mikaeus,theUnhallowed+Teysa,OrzhovScion+GwyllionHedge-Mage', 'Teysa, Orzhov Scion', 'White')
+('Mikaeus,theUnhallowed+Teysa,OrzhovScion+GwyllionHedge-Mage', 'Gwyllion Hedge-Mage', 'Black')
+('Mikaeus,theUnhallowed+Teysa,OrzhovScion+GwyllionHedge-Mage', 'Gwyllion Hedge-Mage', 'White')
+('Mikaeus,theUnhallowed+KitchenFinks+AshnodʼsAltar', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+KitchenFinks+AshnodʼsAltar', 'Kitchen Finks', 'Green')
+('Mikaeus,theUnhallowed+KitchenFinks+AshnodʼsAltar', 'Kitchen Finks', 'White')
+('Mikaeus,theUnhallowed+Damnation+NatureʼsRevolt', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Damnation+NatureʼsRevolt', 'Damnation', 'Black')
+('Mikaeus,theUnhallowed+Tatterkite', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Tatterkite', 'Tatterkite', 'Colorless')
+('Mikaeus,theUnhallowed+BlastingStation+WoodfallPrimus', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+BlastingStation+WoodfallPrimus', 'Blasting Station', 'Colorless')
+('Mikaeus,theUnhallowed+BlastingStation+WoodfallPrimus', 'Woodfall Primus', 'Green')
+('Mikaeus,theUnhallowed+Pentavus+Krark-ClanIronworks', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Pentavus+Krark-ClanIronworks', 'Pentavus', 'Colorless')
+('Mikaeus,theUnhallowed+Pentavus+Krark-ClanIronworks', 'Krark-Clan Ironworks', 'Colorless')
+('Mikaeus,theUnhallowed+Triskelion+GrindingStation', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+Triskelion+GrindingStation', 'Triskelion', 'Colorless')
+('Mikaeus,theUnhallowed+Triskelion+GrindingStation', 'Grinding Station', 'Colorless')
+('Mikaeus,theUnhallowed+SpikeFeeder+EngineeredPlague', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+SpikeFeeder+EngineeredPlague', 'Spike Feeder', 'Green')
+('Mikaeus,theUnhallowed+SpikeFeeder+EngineeredPlague', 'Engineered Plague', 'Black')
+('Mikaeus,theUnhallowed+CinderhazeWretch', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+CinderhazeWretch', 'Cinderhaze Wretch', 'Black')
+('Mikaeus,theUnhallowed+MurderousRedcap', 'Mikaeus, the Unhallowed', 'Black')
+('Mikaeus,theUnhallowed+MurderousRedcap', 'Murderous Redcap', 'Black')
+('Mikaeus,theUnhallowed+MurderousRedcap', 'Murderous Redcap', 'Red')

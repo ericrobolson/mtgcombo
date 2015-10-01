@@ -18,6 +18,7 @@ def f_init_database():
         text TEXT)''' )
 
     # table for colors
+    # colors can be Red, Blue, Green, White, Black, Colorless
     cursor.execute("""CREATE TABLE AllColors
         (color TEXT NOT NULL,
         name TEXT NOT NULL, 
@@ -38,6 +39,27 @@ def f_init_database():
 
   except:
     print("Database exists.")
+
+
+# update colorless cards in mtg
+def f_update_colorless():
+  db = sqlite3.connect("AllThings.sqlite3")
+  cursor = db.cursor()
+
+  # select all cards without a color 
+  cursor.execute("SELECT AllCards.name FROM AllCards EXCEPT SELECT AllColors.name FROM AllColors")
+    
+  # add colorless to the cards
+  c = 'Colorless'
+  all_names = cursor.fetchall()
+  print(all_names)
+  for n in all_names:
+    name = n[0]
+    cursor.execute("INSERT INTO AllColors VALUES (?, ?)", (c, name))
+
+
+  db.commit()
+  db.close()
 
 
 # run this function to create/update card entries based off of AllCards.json
@@ -75,6 +97,8 @@ def f_update_AllCards():
           for c in data[i]["colors"]:
             cursor.execute("INSERT INTO AllColors VALUES (?, ?)", (c, name))
         except:
+          c = "Colorless"
+          cursor.execute("INSERT INTO AllColors VALUES (?, ?)", (c, name))
           colors = "None"
 
       # The card was entered already	
@@ -85,6 +109,9 @@ def f_update_AllCards():
   # close and commit the database 
   db.commit()
   db.close()
+
+  # update colorless cards, things that might not have had a color assigned
+  f_update_colorless()
 
 
 # add a combo into the database
@@ -100,82 +127,66 @@ def f_add_Combo(combo_name, card_name):
   except:
     print("The combo " + combo_name + " with card " +
         card_name + " already exists.")
-  
+ 
   db.commit()
   db.close()
 
 
-
-
-def f_search(card_name, ignore_colors = []):
+# create a view, and find the card combos with the card name, and exclude the provided colors
+def f_combofind(card_name, ignore_colors = []):
   db = sqlite3.connect("AllThings.sqlite3")
   cursor = db.cursor()
 
-  # Example statement on how to select combos including two cards
-#  cursor.execute("""SELECT * FROM (SELECT name AS n1 FROM AllCombos WHERE card = 'Heartless Hidetsugu') 
-#      JOIN
-#      (SELECT name AS n2 FROM AllCombos WHERE card =  'Overblaze') WHERE n1 == n2
-#      """
-#      )
+  # create a view with combos
+  cursor.execute("""CREATE TEMP VIEW v_combo AS 
+      SELECT name from AllCombos WHERE card = '""" + card_name + "'")
 
-  # Example statement on how to select combos with one card
-  cursor.execute("SELECT * FROM(SELECT name as c1 FROM AllCombos WHERE card = '" + card_name + "')")
-  # make the list of combos printable
-  l = cursor.fetchall()
+  # create a view with all the cards to each combo
+  cursor.execute("""CREATE TEMP VIEW v_allcards AS
+    SELECT name as n1, card as card FROM v_combo
+    JOIN
+    (SELECT name as n2, card as card FROM AllCombos) WHERE n1 == n2""")
 
-  # print the cards in the combo
-  for i in l:
-    c_n = ''.join(i[0])
 
-    cursor.execute("SELECT card FROM AllCombos WHERE name = '" + c_n + "'"
-        )
-    
-    # save as a list
-    j = cursor.fetchall()
+  # create new view without combos that contain certain color(s)
+  i_c = "', '".join(ignore_colors)
 
-    # get the colors in each combo
-    c = []
-    for k in j:
-      card_name = ''.join(k)
-     
-      # get color
-      cursor.execute("SELECT color FROM AllColors WHERE name = '" + card_name + "'")
-      colors = cursor.fetchall()
-      c.append(colors)
 
-    # now, we can select the colors we want, and picking color COLORS = [],
-    # we can check if in c, every color matches COLORS. It makes more sense
-    # to do it so that we select colors WE DON"T WANT. E.g. that way it can
-    # still display monocolored combos, as well as artifact combos.
+  # Created a view with all cards/colors
+  # now need to work on excluding combos of a certain color; can exclude
+  # cards of a certain color however.
+  cursor.execute("""CREATE TEMP VIEW v_final AS
+    SELECT n1, AllColors.color
+      FROM v_allcards
+      JOIN   
+      AllColors
+      ON v_allcards.card = AllColors.name
 
-    # example:
-    # 1: pick colors you DON"T WANT
-    # for item in j, if it's colors match the colors WE DON"T WANT, remove it
-    to_print = 1
-    for z in c:
-      # if it's not a color we don't want:
-      for y in z:
-        for x in y:
-          for i_c in ignore_colors:
-            if x == i_c:
-              to_print = 0
- 
-    if to_print == 1:
-      string = []
-      for z in j:
-        for y in z:
-          print(y)
-          string.append(y)
-#        print(str(j) + str(c))   ## Print the cards + color
-      print(" ")
-     
-  db.commit()
-  db.close()
+    EXCEPT
+      SELECT v_allcards.n1, color AS c
+      FROM AllColors, v_allcards
+      WHERE c IN ('""" + i_c + "')")
+
+
+
+  # get and print the final table
+  cursor.execute("SELECT * FROM v_final")
+  results = cursor.fetchall()
+  for i in results:
+    print(i)
+
+  db.close() 
 
 
 # search for a card, ignore colors:
-f_search("Merieke Ri Berit", [])
+
+
+
 
 # Update info
 # f_init_database()
+#f_update_colorless()
 # f_update_AllCards()
+
+
+f_combofind("Mikaeus, the Unhallowed", [('Red'),('Green'),('White')])
