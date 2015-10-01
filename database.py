@@ -155,25 +155,40 @@ def f_combofind(card_name, ignore_colors = []):
   # Created a view with all cards/colors
   # now need to work on excluding combos of a certain color; can exclude
   # cards of a certain color however.
-  cursor.execute("""CREATE TEMP VIEW v_final AS
-    SELECT n1, AllColors.color
+  cursor.execute("""CREATE TEMP VIEW v_f AS
+    SELECT n1, color, card
       FROM v_allcards
       JOIN   
       AllColors
       ON v_allcards.card = AllColors.name
 
     EXCEPT
-      SELECT v_allcards.n1, color AS c
+      SELECT v_allcards.n1 AS n2, color AS c, card as card2
       FROM AllColors, v_allcards
-      WHERE c IN ('""" + i_c + "')")
+      WHERE c NOT IN ('""" + i_c + "')")
+
+  # create the final view; excluding cards and combos that
+  # are not of the chosen colors
+  cursor.execute("""CREATE TEMP VIEW v_final AS
+    SELECT n1, card FROM v_allcards
+    EXCEPT
+    SELECT n1 AS n2, card FROM v_f WHERE n1 == n2
+  """)
 
 
+  # SELECT the final table
+  cursor.execute("""SELECT DISTINCT GROUP_CONCAT(card, '; ') FROM v_final GROUP BY n1""") 
 
-  # get and print the final table
-  cursor.execute("SELECT * FROM v_final")
+  # print the final table of combos
   results = cursor.fetchall()
   for i in results:
-    print(i)
+
+    # split combo into cards, and print
+    combo = i[0].split("; ")
+    for j in combo:
+      print(j)
+    print()
+
 
   db.close() 
 
@@ -189,4 +204,4 @@ def f_combofind(card_name, ignore_colors = []):
 # f_update_AllCards()
 
 
-f_combofind("Mikaeus, the Unhallowed", [('Red'),('Green'),('White')])
+f_combofind("Mikaeus, the Unhallowed", [('Blue'),('Green'),('White')])
