@@ -138,7 +138,8 @@ def f_add_Combo(combo_name, card_name):
 
 
 # create a view, and find the card combos with the card name, and exclude the provided colors
-def f_combofind(card_name, ignore_colors = []):
+# num_cards is the max number of cards in the combo
+def f_combofind(card_name, ignore_colors = [], num_cards = 99):
   db = sqlite3.connect("AllThings.sqlite3")
   cursor = db.cursor()
 
@@ -183,13 +184,15 @@ def f_combofind(card_name, ignore_colors = []):
 
   # print the final table of combos
   results = cursor.fetchall()
+  total = 0
   for i in results:
+    total +=1
     # split combo into cards, and print
     combo = i[0].split("; ")
-    for j in combo:
-      print(j)
-    print()
-
+    if (len(combo) <= num_cards):
+      for j in combo:
+        print(j)
+      print()
   db.close() 
 
 
@@ -202,6 +205,11 @@ if len(sys.argv) > 1:
   card = sys.argv[1]
   colors = []  
   index = 0
+  num_cards = 100
+
+  # get the max num_cards in each combo
+  if sys.argv[2].isdigit():
+    num_cards = (int(sys.argv[2]))
 
   # check to see if it's a real card
   db = sqlite3.connect("AllThings.sqlite3")
@@ -209,8 +217,8 @@ if len(sys.argv) > 1:
   cursor.execute("SELECT * FROM AllCards WHERE name = '" + card + "'")
   results = cursor.fetchall()
   if not results:
-    print("Enter in format: 'CARDNAME' Red Blue White Black Green Colorless")
-    print("Note: Colors are optional and may be entered in any order")
+    print("Enter in format: 'CARDNAME' NUM_CARDS Red Blue White Black Green Colorless")
+    print("Note: Colors are optional and may be entered in any order.")
   db.close()
   
   # populate the colors
@@ -221,4 +229,4 @@ if len(sys.argv) > 1:
     index +=1
 
   # search for the combo
-  f_combofind(card, colors)
+  f_combofind(card, colors, num_cards)
