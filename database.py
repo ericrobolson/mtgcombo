@@ -186,7 +186,9 @@ def f_combofind(card_name, ignore_colors = [], max_cmc = 100, num_cards = 99):
     EXCEPT
       SELECT v_allcards.n1 AS n2, cmc AS cmc2, card as card2
       FROM AllCards, v_allcards
-      WHERE cmc < 5""")
+      WHERE cmc <= """ + str(max_cmc))
+
+
   # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^6
   # replace 5 with max_cmc  
 
