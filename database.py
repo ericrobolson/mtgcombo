@@ -153,6 +153,9 @@ def f_combofind(card_name, ignore_colors = [], max_cmc = 100, num_cards = 99):
     JOIN
     (SELECT name as n2, card as card FROM AllCombos) WHERE n1 == n2""")
 
+  
+
+
   # create new view without combos that contain certain color(s)
   i_c = "', '".join(ignore_colors)
 
@@ -171,12 +174,30 @@ def f_combofind(card_name, ignore_colors = [], max_cmc = 100, num_cards = 99):
       FROM AllColors, v_allcards
       WHERE c NOT IN ('""" + i_c + "')")
 
+
+  # Remove cards with cmc greater than max_cmc
+  cursor.execute("""CREATE TEMP VIEW v_cmc AS
+    SELECT n1, cmc, card
+      FROM v_allcards
+      JOIN   
+      AllCards
+      ON v_allcards.card = AllCards.name
+
+    EXCEPT
+      SELECT v_allcards.n1 AS n2, cmc AS cmc2, card as card2
+      FROM AllCards, v_allcards
+      WHERE cmc < 5""")
+  # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^6
+  # replace 5 with max_cmc  
+
   # create the final view; excluding cards and combos that
   # are not of the chosen colors
   cursor.execute("""CREATE TEMP VIEW v_final AS
     SELECT n1, card FROM v_allcards
     EXCEPT
     SELECT n1 AS n2, card FROM v_f WHERE n1 == n2
+    EXCEPT
+    SELECT n1 as n3, card FROM v_cmc WHERE n1 == n3
   """)
 
   # SELECT the final table
