@@ -1,0 +1,1292 @@
+Reading from file system https://mtgjson.com/api/v5/AllPrintings.json.gz
+Reading from file system https://json.edhrec.com/pages/combos/phyrexian-altar.json
+---------------------------------
+Phyrexian Altar
+/combos/b/1300
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/w/12452
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Fiend Hunter
+   When Fiend Hunter enters the battlefield, you may exile another target creature.
+   When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+  Karmic Guide
+/combos/b/483
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/ur/3653
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  The Locust God
+  Skullclamp
+   Equipped creature gets +1/-1.
+   Whenever equipped creature dies, draw two cards.
+   Equip {1}
+/combos/b/2200
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Falkenrath Noble
+   Flying
+   Whenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+/combos/brg/16839
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Prossh, Skyraider of Kher
+  Chatterfang, Squirrel General
+   Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+   If one or more tokens would be created under your control, those tokens plus that many 1/1 green Squirrel creature tokens are created instead.
+   {B}, Sacrifice X Squirrels: Target creature gets +X/-X until end of turn.
+/combos/b/1304
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+/combos/b/15322
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Mikaeus, the Unhallowed
+  Plague Belcher
+   Menace
+   When Plague Belcher enters the battlefield, put two -1/-1 counters on target creature you control.
+   Whenever another Zombie you control dies, each opponent loses 1 life.
+/combos/gw/18858
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Saffi Eriksdotter
+   Sacrifice Saffi Eriksdotter: When target creature is put into your graveyard this turn, return that card to the battlefield.
+  Reveillark
+/combos/wb/9330
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Sun Titan
+  Karmic Guide
+  Animate Dead
+   Enchant creature card in a graveyard
+   When Animate Dead enters the battlefield, if it's on the battlefield, it loses "enchant creature card in a graveyard" and gains "enchant creature put onto the battlefield with Animate Dead." Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.
+   Enchanted creature gets -1/-0.
+/combos/b/2323
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/w/1646
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Karmic Guide
+  Reveillark
+/combos/b/2064
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Sifter of Skulls
+   Devoid (This card has no color.)
+   Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)
+/combos/b/481
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/b/4461
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Ayara, First of Locthwain
+   Whenever Ayara, First of Locthwain or another black creature enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.
+   {T}, Sacrifice another black creature: Draw a card.
+/combos/b/2322
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/w/3487
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Sun Titan
+  Fiend Hunter
+   When Fiend Hunter enters the battlefield, you may exile another target creature.
+   When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+/combos/b/484
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Sifter of Skulls
+   Devoid (This card has no color.)
+   Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/b/9573
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Champion of the Perished
+   Whenever another Zombie enters the battlefield under your control, put a +1/+1 counter on Champion of the Perished.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+/combos/b/2320
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/b/7015
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Tormod, the Desecrator
+   Whenever one or more cards leave your graveyard, create a tapped 2/2 black Zombie creature token.
+   Partner (You can have two commanders if both have partner.)
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+/combos/b/485
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Sifter of Skulls
+   Devoid (This card has no color.)
+   Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/b/1298
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/b/13783
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Cult Conscript
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+/combos/b/14946
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Altar of Dementia
+   Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Diregraf Colossus
+   Diregraf Colossus enters the battlefield with a +1/+1 counter on it for each Zombie card in your graveyard.
+   Whenever you cast a Zombie spell, create a tapped 2/2 black Zombie creature token.
+/combos/bg/7382
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Living Death
+  Eternal Witness
+   When Eternal Witness enters the battlefield, you may return target card from your graveyard to your hand.
+/combos/b/14945
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Altar of Dementia
+   Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Headless Rider
+   Whenever Headless Rider or another nontoken Zombie you control dies, create a 2/2 black Zombie creature token.
+/combos/b/4246
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Syr Konrad, the Grim
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+/combos/br/13362
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Ruthless Technomancer
+   When Ruthless Technomancer enters the battlefield, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power.
+   {2}{B}, Sacrifice X artifacts: Return target creature card with power X or less from your graveyard to the battlefield. X can't be 0.
+  Dockside Extortionist
+   When Dockside Extortionist enters the battlefield, create X Treasure tokens, where X is the number of artifacts and enchantments your opponents control. (Treasure tokens are artifacts with "{T}, Sacrifice this artifact: Add one mana of any color.")
+/combos/b/2061
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+/combos/ub/10685
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Liliana, Untouched by Death
+   [+1]: Mill three cards. If at least one Zombie card is milled this way, each opponent loses 2 life and you gain 2 life.
+   [−2]: Target creature gets -X/-X until end of turn, where X is the number of Zombies you control.
+   [−3]: You may cast Zombie spells from your graveyard this turn.
+  Rooftop Storm
+/combos/r/17724
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Krenko, Mob Boss
+   {T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control.
+  Thornbite Staff
+/combos/wb/3583
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Teysa Karlov
+   If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+   Creature tokens you control have vigilance and lifelink.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+/combos/b/482
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/ub/4399
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Rooftop Storm
+/combos/ub/1299
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Diregraf Captain
+   Deathtouch
+   Other Zombie creatures you control get +1/+1.
+   Whenever another Zombie you control dies, target opponent loses 1 life.
+/combos/ub/10321
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Wilhelt, the Rotcleaver
+   Whenever another Zombie you control dies, if it didn't have decayed, create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)
+   At the beginning of your end step, you may sacrifice a Zombie. If you do, draw a card.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+/combos/ub/9856
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Necroduality
+   Whenever a nontoken Zombie enters the battlefield under your control, create a token that's a copy of that creature.
+/combos/ub/10387
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Relentless Dead
+   Menace (This creature can't be blocked except by two or more creatures.)
+   When Relentless Dead dies, you may pay {B}. If you do, return it to its owner's hand.
+   When Relentless Dead dies, you may pay {X}. If you do, return another target Zombie creature card with mana value X from your graveyard to the battlefield.
+  Rooftop Storm
+/combos/b/10324
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Vengeful Dead
+   Whenever Vengeful Dead or another Zombie dies, each opponent loses 1 life.
+/combos/b/2324
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Sifter of Skulls
+   Devoid (This card has no color.)
+   Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/b/1922
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Mikaeus, the Unhallowed
+  Walking Ballista
+   Walking Ballista enters the battlefield with X +1/+1 counters on it.
+   {4}: Put a +1/+1 counter on Walking Ballista.
+   Remove a +1/+1 counter from Walking Ballista: It deals 1 damage to any target.
+/combos/b/480
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/r/7360
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Dargo, the Shipwrecker
+/combos/ub/14046
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Wilhelt, the Rotcleaver
+   Whenever another Zombie you control dies, if it didn't have decayed, create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)
+   At the beginning of your end step, you may sacrifice a Zombie. If you do, draw a card.
+  Poppet Stitcher
+   Whenever you cast an instant or sorcery spell, create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)
+   At the beginning of your upkeep, if you control three or more creature tokens, you may transform Poppet Stitcher.
+/combos/r/12080
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Kiki-Jiki, Mirror Breaker
+  Thornbite Staff
+/combos/gw/19327
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Saffi Eriksdotter
+   Sacrifice Saffi Eriksdotter: When target creature is put into your graveyard this turn, return that card to the battlefield.
+  Karmic Guide
+/combos/brg/4046
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Prossh, Skyraider of Kher
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+/combos/b/2325
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Sifter of Skulls
+   Devoid (This card has no color.)
+   Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/b/2321
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+{
+    "Zulaport Cutthroat": 7,
+    "Blood Artist": 7,
+    "Saffi Eriksdotter": 2,
+    "Ruthless Technomancer": 1,
+    "Diregraf Captain": 1,
+    "Champion of the Perished": 1,
+    "Eternal Witness": 1,
+    "Wilhelt, the Rotcleaver": 2,
+    "Diregraf Colossus": 1,
+    "Vengeful Dead": 1,
+    "Sifter of Skulls": 5,
+    "Liliana, Untouched by Death": 1,
+    "Poppet Stitcher // Poppet Factory": 1,
+    "Gravecrawler": 13,
+    "Bloodsoaked Champion": 6,
+    "Skullclamp": 1,
+    "Teysa Karlov": 1,
+    "Necroduality": 1,
+    "Walking Ballista": 1,
+    "Phyrexian Altar": 50,
+    "Dockside Extortionist": 1,
+    "Headless Rider": 1,
+    "Animate Dead": 1,
+    "Tormod, the Desecrator": 1,
+    "Chatterfang, Squirrel General": 1,
+    "Ashnod's Altar": 1,
+    "Plague Belcher": 1,
+    "Krenko, Mob Boss": 1,
+    "Relentless Dead": 1,
+    "Pitiless Plunderer": 7,
+    "Reassembling Skeleton": 8,
+    "Altar of Dementia": 2,
+    "Nether Traitor": 3,
+    "Ayara, First of Locthwain": 1,
+    "Falkenrath Noble": 1,
+    "Fiend Hunter": 2,
+    "Pawn of Ulamog": 6,
+}
+{
+    "W": 5,
+    "G": 4,
+    "R": 2,
+    "U": 5,
+    "B": 79,
+}
+Reading from file system https://json.edhrec.com/pages/combos/ashnods-altar.json
+---------------------------------
+Ashnod's Altar
+/combos/colorless/5026
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Wurmcoil Engine
+  Nim Deathmantle
+   Equipped creature gets +2/+2, has intimidate, and is a black Zombie. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+   Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it.
+   Equip {4}
+/combos/w/3486
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Sun Titan
+  Fiend Hunter
+   When Fiend Hunter enters the battlefield, you may exile another target creature.
+   When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+/combos/b/16257
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Nim Deathmantle
+   Equipped creature gets +2/+2, has intimidate, and is a black Zombie. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+   Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it.
+   Equip {4}
+  Grave Titan
+/combos/bg/14718
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Chatterfang, Squirrel General
+   Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+   If one or more tokens would be created under your control, those tokens plus that many 1/1 green Squirrel creature tokens are created instead.
+   {B}, Sacrifice X Squirrels: Target creature gets +X/-X until end of turn.
+  Slimefoot, the Stowaway
+   Whenever a Saproling you control dies, Slimefoot, the Stowaway deals 1 damage to each opponent and you gain 1 life.
+   {4}: Create a 1/1 green Saproling creature token.
+/combos/rgw/417
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Atla Palani, Nest Tender
+   {2}, {T}: Create a 0/1 green Egg creature token with defender.
+   Whenever an Egg you control dies, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.
+  Thornbite Staff
+/combos/ub/3957
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Havengul Lich
+  Rooftop Storm
+  Gray Merchant of Asphodel
+/combos/ub/14045
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Wilhelt, the Rotcleaver
+   Whenever another Zombie you control dies, if it didn't have decayed, create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)
+   At the beginning of your end step, you may sacrifice a Zombie. If you do, draw a card.
+  Poppet Stitcher
+   Whenever you cast an instant or sorcery spell, create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)
+   At the beginning of your upkeep, if you control three or more creature tokens, you may transform Poppet Stitcher.
+/combos/colorless/5003
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Myr Battlesphere
+  Nim Deathmantle
+   Equipped creature gets +2/+2, has intimidate, and is a black Zombie. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+   Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it.
+   Equip {4}
+/combos/b/2317
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/br/2318
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Mayhem Devil
+/combos/b/7643
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Marionette Master
+  Nim Deathmantle
+   Equipped creature gets +2/+2, has intimidate, and is a black Zombie. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+   Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it.
+   Equip {4}
+/combos/wubr/632
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Breya, Etherium Shaper
+   When Breya, Etherium Shaper enters the battlefield, create two 1/1 blue Thopter artifact creature tokens with flying.
+   {2}, Sacrifice two artifacts: Choose one —
+   • Breya deals 3 damage to target player or planeswalker.
+   • Target creature gets -4/-4 until end of turn.
+   • You gain 5 life.
+  Eldrazi Displacer
+   Devoid (This card has no color.)
+   {2}{C}: Exile another target creature, then return it to the battlefield tapped under its owner's control. ({C} represents colorless mana.)
+/combos/gw/19328
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Saffi Eriksdotter
+   Sacrifice Saffi Eriksdotter: When target creature is put into your graveyard this turn, return that card to the battlefield.
+  Karmic Guide
+/combos/gw/18859
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Saffi Eriksdotter
+   Sacrifice Saffi Eriksdotter: When target creature is put into your graveyard this turn, return that card to the battlefield.
+  Reveillark
+/combos/wbg/1184
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Ghave, Guru of Spores
+  Cathars' Crusade
+/combos/wbg/1195
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Ghave, Guru of Spores
+  Good-Fortune Unicorn
+   Whenever another creature enters the battlefield under your control, put a +1/+1 counter on that creature.
+/combos/b/1303
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+/combos/wb/9329
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Sun Titan
+  Karmic Guide
+  Animate Dead
+   Enchant creature card in a graveyard
+   When Animate Dead enters the battlefield, if it's on the battlefield, it loses "enchant creature card in a graveyard" and gains "enchant creature put onto the battlefield with Animate Dead." Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.
+   Enchanted creature gets -1/-0.
+/combos/w/12453
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Fiend Hunter
+   When Fiend Hunter enters the battlefield, you may exile another target creature.
+   When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+  Karmic Guide
+/combos/b/2319
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/ub/10322
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Wilhelt, the Rotcleaver
+   Whenever another Zombie you control dies, if it didn't have decayed, create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)
+   At the beginning of your end step, you may sacrifice a Zombie. If you do, draw a card.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Rooftop Storm
+/combos/ur/3652
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  The Locust God
+  Skullclamp
+   Equipped creature gets +1/-1.
+   Whenever equipped creature dies, draw two cards.
+   Equip {1}
+/combos/br/13363
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Ruthless Technomancer
+   When Ruthless Technomancer enters the battlefield, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power.
+   {2}{B}, Sacrifice X artifacts: Return target creature card with power X or less from your graveyard to the battlefield. X can't be 0.
+  Dockside Extortionist
+   When Dockside Extortionist enters the battlefield, create X Treasure tokens, where X is the number of artifacts and enchantments your opponents control. (Treasure tokens are artifacts with "{T}, Sacrifice this artifact: Add one mana of any color.")
+/combos/wub/14206
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Marneus Calgar
+  Anointed Procession
+   If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.
+/combos/wub/3661
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Thopter Foundry
+   {1}, Sacrifice a nontoken artifact: Create a 1/1 blue Thopter artifact creature token with flying. You gain 1 life.
+  Sword of the Meek
+   Equipped creature gets +1/+2.
+   Equip {2}
+   Whenever a 1/1 creature enters the battlefield under your control, you may return Sword of the Meek from your graveyard to the battlefield, then attach it to that creature.
+/combos/wbg/1182
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Ghave, Guru of Spores
+  Anointed Procession
+   If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.
+/combos/colorless/17557
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Scrap Trawler
+   Whenever Scrap Trawler or another artifact you control is put into a graveyard from the battlefield, return to your hand target artifact card in your graveyard with lesser mana value.
+  Sculpting Steel
+   You may have Sculpting Steel enter the battlefield as a copy of any artifact on the battlefield.
+  Foundry Inspector
+   Artifact spells you cast cost {1} less to cast.
+/combos/r/12081
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Kiki-Jiki, Mirror Breaker
+  Thornbite Staff
+/combos/wubr/634
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Breya, Etherium Shaper
+   When Breya, Etherium Shaper enters the battlefield, create two 1/1 blue Thopter artifact creature tokens with flying.
+   {2}, Sacrifice two artifacts: Choose one —
+   • Breya deals 3 damage to target player or planeswalker.
+   • Target creature gets -4/-4 until end of turn.
+   • You gain 5 life.
+  Nim Deathmantle
+   Equipped creature gets +2/+2, has intimidate, and is a black Zombie. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+   Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it.
+   Equip {4}
+/combos/wbg/1187
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Ghave, Guru of Spores
+  Doubling Season
+/combos/wbg/1205
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Ghave, Guru of Spores
+  Parallel Lives
+   If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.
+/combos/w/1644
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Karmic Guide
+  Reveillark
+/combos/bg/3381
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Slimefoot, the Stowaway
+   Whenever a Saproling you control dies, Slimefoot, the Stowaway deals 1 damage to each opponent and you gain 1 life.
+   {4}: Create a 1/1 green Saproling creature token.
+  Parallel Lives
+   If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.
+/combos/b/15323
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Mikaeus, the Unhallowed
+  Plague Belcher
+   Menace
+   When Plague Belcher enters the battlefield, put two -1/-1 counters on target creature you control.
+   Whenever another Zombie you control dies, each opponent loses 1 life.
+/combos/bg/3379
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Slimefoot, the Stowaway
+   Whenever a Saproling you control dies, Slimefoot, the Stowaway deals 1 damage to each opponent and you gain 1 life.
+   {4}: Create a 1/1 green Saproling creature token.
+  Doubling Season
+/combos/br/11453
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Mahadi, Emporium Master
+   At the beginning of your end step, create a Treasure token for each creature that died this turn. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Revel in Riches
+/combos/ub/4400
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Rooftop Storm
+/combos/b/111
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Falkenrath Noble
+   Flying
+   Whenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+/combos/wub/14226
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Marneus Calgar
+  Nadir Kraken
+   Whenever you draw a card, you may pay {1}. If you do, put a +1/+1 counter on Nadir Kraken and create a 1/1 blue Tentacle creature token.
+/combos/br/113
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Judith, the Scourge Diva
+   Other creatures you control get +1/+0.
+   Whenever a nontoken creature you control dies, Judith, the Scourge Diva deals 1 damage to any target.
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+/combos/wb/3582
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Teysa Karlov
+   If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+   Creature tokens you control have vigilance and lifelink.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+/combos/r/5031
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Dockside Extortionist
+   When Dockside Extortionist enters the battlefield, create X Treasure tokens, where X is the number of artifacts and enchantments your opponents control. (Treasure tokens are artifacts with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Nim Deathmantle
+   Equipped creature gets +2/+2, has intimidate, and is a black Zombie. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+   Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it.
+   Equip {4}
+/combos/brg/4046
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Prossh, Skyraider of Kher
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+/combos/b/479
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/b/109
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+/combos/b/1921
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Mikaeus, the Unhallowed
+  Walking Ballista
+   Walking Ballista enters the battlefield with X +1/+1 counters on it.
+   {4}: Put a +1/+1 counter on Walking Ballista.
+   Remove a +1/+1 counter from Walking Ballista: It deals 1 damage to any target.
+/combos/r/17725
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Krenko, Mob Boss
+   {T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control.
+  Thornbite Staff
+/combos/ub/10686
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Liliana, Untouched by Death
+   [+1]: Mill three cards. If at least one Zombie card is milled this way, each opponent loses 2 life and you gain 2 life.
+   [−2]: Target creature gets -X/-X until end of turn, where X is the number of Zombies you control.
+   [−3]: You may cast Zombie spells from your graveyard this turn.
+  Rooftop Storm
+/combos/g/3450
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Sporemound
+  Life and Limb
+   All Forests and all Saprolings are 1/1 green Saproling creatures and Forest lands in addition to their other types. (They're affected by summoning sickness.)
+/combos/b/13782
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+  Cult Conscript
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+{
+    "Parallel Lives": 2,
+    "Sculpting Steel": 1,
+    "Skullclamp": 1,
+    "Nim Deathmantle": 6,
+    "Nadir Kraken": 1,
+    "Judith, the Scourge Diva": 1,
+    "Reassembling Skeleton": 6,
+    "Wilhelt, the Rotcleaver": 2,
+    "Scrap Trawler": 1,
+    "Blood Artist": 2,
+    "Eldrazi Displacer": 1,
+    "Good-Fortune Unicorn": 1,
+    "Mahadi, Emporium Master": 1,
+    "Slimefoot, the Stowaway": 3,
+    "Pitiless Plunderer": 10,
+    "Thopter Foundry": 1,
+    "Dockside Extortionist": 2,
+    "Saffi Eriksdotter": 2,
+    "Poppet Stitcher // Poppet Factory": 1,
+    "Zulaport Cutthroat": 2,
+    "Phyrexian Altar": 1,
+    "Gravecrawler": 3,
+    "Ruthless Technomancer": 1,
+    "Plague Belcher": 1,
+    "Falkenrath Noble": 1,
+    "Bloodsoaked Champion": 2,
+    "Sword of the Meek": 1,
+    "Animate Dead": 1,
+    "Ashnod's Altar": 50,
+    "Fiend Hunter": 2,
+    "Foundry Inspector": 1,
+    "Chatterfang, Squirrel General": 1,
+    "Krenko, Mob Boss": 1,
+    "Breya, Etherium Shaper": 2,
+    "Atla Palani, Nest Tender": 1,
+    "Walking Ballista": 1,
+    "Liliana, Untouched by Death": 1,
+    "Teysa Karlov": 1,
+    "Life and Limb": 1,
+    "Anointed Procession": 2,
+}
+{
+    "R": 8,
+    "B": 42,
+    "G": 11,
+    "W": 13,
+    "U": 7,
+}
+Reading from file system https://json.edhrec.com/pages/combos/pawn-of-ulamog.json
+---------------------------------
+Pawn of Ulamog
+/combos/b/481
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/b/3846
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Whisper, Blood Liturgist
+   {T}, Sacrifice two creatures: Return target creature card from your graveyard to the battlefield.
+  Thornbite Staff
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/b/3548
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Tenacious Dead
+   When Tenacious Dead dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner's control.
+  Altar of Dementia
+   Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/b/2321
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/br/15409
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Timothar, Baron of Bats
+  Breath of Fury
+   Enchant creature you control
+   When enchanted creature deals combat damage to a player, sacrifice it and attach Breath of Fury to a creature you control. If you do, untap all creatures you control and after this phase, there is an additional combat phase.
+  Anger
+   Haste
+   As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.
+/combos/b/3555
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Tenacious Dead
+   When Tenacious Dead dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner's control.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/wbg/13486
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Eternal Witness
+   When Eternal Witness enters the battlefield, you may return target card from your graveyard to your hand.
+  Sevinne's Reclamation
+   Return target permanent card with mana value 3 or less from your graveyard to the battlefield. If this spell was cast from a graveyard, you may copy this spell and may choose a new target for the copy.
+   Flashback {4}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+/combos/b/17309
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Ruthless Knave
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Sifter of Skulls
+   Devoid (This card has no color.)
+   Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)
+/combos/b/2061
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+/combos/ub/4251
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Kels, Fight Fixer
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Laboratory Maniac
+   If you would draw a card while your library has no cards in it, you win the game instead.
+/combos/b/3556
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Tenacious Dead
+   When Tenacious Dead dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner's control.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/b/4962
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Eternal Scourge
+   You may cast Eternal Scourge from exile.
+   When Eternal Scourge becomes the target of a spell or ability an opponent controls, exile Eternal Scourge.
+  Planar Void
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+/combos/b/2320
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/b/4246
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Syr Konrad, the Grim
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+/combos/b/476
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Altar of Dementia
+   Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/wbg/12188
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Colfenor, the Last Yew
+  Walking Ballista
+   Walking Ballista enters the battlefield with X +1/+1 counters on it.
+   {4}: Put a +1/+1 counter on Walking Ballista.
+   Remove a +1/+1 counter from Walking Ballista: It deals 1 damage to any target.
+/combos/ub/4248
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Kels, Fight Fixer
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+/combos/br/15407
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Garna, the Bloodflame
+  Timothar, Baron of Bats
+  Breath of Fury
+   Enchant creature you control
+   When enchanted creature deals combat damage to a player, sacrifice it and attach Breath of Fury to a creature you control. If you do, untap all creatures you control and after this phase, there is an additional combat phase.
+/combos/b/2313
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Altar of Dementia
+   Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/b/4961
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Eternal Scourge
+   You may cast Eternal Scourge from exile.
+   When Eternal Scourge becomes the target of a spell or ability an opponent controls, exile Eternal Scourge.
+  Nightmare Shepherd
+   Flying
+   Whenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that creature, except it's 1/1 and it's a Nightmare in addition to its other types.
+  Ashnod's Altar
+   Sacrifice a creature: Add {C}{C}.
+/combos/b/480
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/b/2314
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Reassembling Skeleton
+   {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+  Altar of Dementia
+   Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/b/3915
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Yawgmoth, Thran Physician
+   Protection from Humans
+   Pay 1 life, Sacrifice another creature: Put a -1/-1 counter on up to one target creature and draw a card.
+   {B}{B}, Discard a card: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+  Butcher Ghoul
+   Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+/combos/wbg/12189
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Colfenor, the Last Yew
+  Endless One
+   Endless One enters the battlefield with X +1/+1 counters on it.
+/combos/b/3549
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Tenacious Dead
+   When Tenacious Dead dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner's control.
+  Altar of Dementia
+   Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Zulaport Cutthroat
+   Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+/combos/b/15068
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Liliana, Heretical Healer
+   Lifelink
+   Whenever another nontoken creature you control dies, exile Liliana, Heretical Healer, then return her to the battlefield transformed under her owner's control. If you do, create a 2/2 black Zombie creature token.
+  Cadaver Imp
+   Flying
+   When Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+/combos/wbg/18057
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Colfenor, the Last Yew
+  Ugin's Conjurant
+/combos/b/2062
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Altar of Dementia
+   Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.
+/combos/ub/4249
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Kels, Fight Fixer
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Jace, Wielder of Mysteries
+   If you would draw a card while your library has no cards in it, you win the game instead.
+   [+1]: Target player mills two cards. Draw a card.
+   [−8]: Draw seven cards. Then if your library has no cards in it, you win the game.
+/combos/b/475
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Bloodsoaked Champion
+   Bloodsoaked Champion can't block.
+   Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.
+  Altar of Dementia
+   Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/brg/18318
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Slimefoot and Squee
+   Whenever Slimefoot and Squee enters the battlefield or attacks, create a 1/1 green Saproling creature token.
+   {1}{B}{R}{G}, Sacrifice a Saproling: Return Slimefoot and Squee and up to one other target creature card from your graveyard to the battlefield. Activate only as a sorcery.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+/combos/b/3845
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Whisper, Blood Liturgist
+   {T}, Sacrifice two creatures: Return target creature card from your graveyard to the battlefield.
+  Thornbite Staff
+  Blood Artist
+   Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+/combos/b/17307
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Ruthless Knave
+  Gravecrawler
+   Gravecrawler can't block.
+   You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+  Pitiless Plunderer
+   Whenever another creature you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+/combos/ub/4250
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Kels, Fight Fixer
+  Nether Traitor
+   Haste
+   Shadow (This creature can block or be blocked by only creatures with shadow.)
+   Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return Nether Traitor from your graveyard to the battlefield.
+  Phyrexian Altar
+   Sacrifice a creature: Add one mana of any color.
+  Thassa's Oracle
+   When Thassa's Oracle enters the battlefield, look at the top X cards of your library, where X is your devotion to blue. Put up to one of them on top of your library and the rest on the bottom of your library in a random order. If X is greater than or equal to the number of cards in your library, you win the game. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)
+/combos/wbg/12187
+  Pawn of Ulamog
+   Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
+  Colfenor, the Last Yew
+  Hangarback Walker
+   Hangarback Walker enters the battlefield with X +1/+1 counters on it.
+   When Hangarback Walker dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on Hangarback Walker.
+   {1}, {T}: Put a +1/+1 counter on Hangarback Walker.
+{
+    "Slimefoot and Squee": 1,
+    "Blood Artist": 7,
+    "Breath of Fury": 2,
+    "Cadaver Imp": 1,
+    "Eternal Scourge": 2,
+    "Ashnod's Altar": 2,
+    "Yawgmoth, Thran Physician": 1,
+    "Thassa's Oracle": 1,
+    "Pawn of Ulamog": 35,
+    "Pitiless Plunderer": 9,
+    "Sevinne's Reclamation": 1,
+    "Whisper, Blood Liturgist": 2,
+    "Phyrexian Altar": 15,
+    "Bloodsoaked Champion": 4,
+    "Hangarback Walker": 1,
+    "Zulaport Cutthroat": 8,
+    "Eternal Witness": 1,
+    "Altar of Dementia": 7,
+    "Gravecrawler": 2,
+    "Sifter of Skulls": 1,
+    "Walking Ballista": 1,
+    "Endless One": 1,
+    "Jace, Wielder of Mysteries": 1,
+    "Anger": 1,
+    "Liliana, Heretical Healer // Liliana, Defiant Necromancer": 1,
+    "Laboratory Maniac": 1,
+    "Nightmare Shepherd": 1,
+    "Reassembling Skeleton": 4,
+    "Nether Traitor": 7,
+    "Tenacious Dead": 4,
+    "Butcher Ghoul": 1,
+}
+{
+    "G": 2,
+    "R": 4,
+    "B": 89,
+    "U": 3,
+    "W": 1,
+}

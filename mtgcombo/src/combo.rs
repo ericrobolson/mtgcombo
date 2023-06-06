@@ -1,25 +1,42 @@
-use std::collections::HashMap;
-use serde::{Deserialize, Serialize};
 use crate::io;
+use serde::{Deserialize, Serialize};
+use std::{collections::HashMap, io::Cursor};
 
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Serialize, Deserialize)]
-struct ComboResponse {
+pub struct ComboResponse {
     pub cardlist: Vec<CardCombo>,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Serialize, Deserialize)]
-struct CardCombo {
+pub struct CardCombo {
     pub name: String,
     pub sanitized: String,
     pub url: String,
 }
 
-pub fn fetch(card_name: &str) {
-    let url = "https://json.edhrec.com/pages/combos/phyrexian-altar.json";
+fn sanitize_card_name(card_name: &str) -> String {
+    card_name
+        .replace(" ", "-")
+        .replace("'", "")
+        .replace(",", "")
+        .replace(",", "")
+        .to_lowercase()
+}
 
-    let response = io::fetch_url(url);
+pub fn fetch(card_name: &str) -> HashMap<String, Vec<CardCombo>> {
+    let url = format!(
+        "https://json.edhrec.com/pages/combos/{}.json",
+        sanitize_card_name(card_name)
+    );
+
+    let response = io::fetch_url(&url);
 
     let json = serde_json::from_str::<ComboResponse>(&response).unwrap();
+    let combo_card = CardCombo {
+        name: card_name.to_string(),
+        sanitized: sanitize_card_name(card_name),
+        url: url.clone(),
+    };
 
     let mut combolist: HashMap<String, Vec<CardCombo>> = HashMap::new();
     for card in json.cardlist.iter() {
@@ -30,9 +47,11 @@ pub fn fetch(card_name: &str) {
                 cards.dedup();
             }
             None => {
-                let cards = vec![card.clone()];
+                let cards = vec![combo_card.clone(), card.clone()];
                 combolist.insert(url, cards);
             }
         }
     }
+
+    combolist
 }

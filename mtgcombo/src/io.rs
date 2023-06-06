@@ -21,16 +21,42 @@ pub fn fetch_url(url: &str) -> String {
         std::fs::read_to_string(path).unwrap()
     } else {
         println!("Fetching {url}");
-        let resp = reqwest::blocking::get(url).unwrap();
-        let body = resp.text().unwrap();
+        let timeout = std::time::Duration::from_secs(30);
+        let client = reqwest::blocking::Client::builder()
+            .timeout(timeout)
+            .build()
+            .unwrap();
+
+        let resp = client.get(url).send().unwrap();
+        if !resp.status().is_success() {
+            panic!("Failed to fetch {url}: {:#?}", resp);
+
+        }
+        let body = resp.bytes().unwrap();
+
+        let is_zip = url.ends_with(".gz");
+        let body = if is_zip {
+            use std::io::prelude::*;
+            use flate2::read::GzDecoder;
+            let mut d = GzDecoder::new(body.as_ref());
+            let mut s = String::new();
+            d.read_to_string(&mut s).unwrap();
+            s.into_bytes()
+        } else {
+            body.to_vec()
+        };
+
         let mut file = File::create(path).unwrap();
-        file.write_all(body.as_bytes()).unwrap();
-        body
+        file.write_all(&body).unwrap();
+
+        String::from_utf8(body.to_vec()).unwrap()
     }
 }
 
 fn url_to_path(url: &str) -> String {
     let mut path = String::from(CACHE_DIR);
+
     path.push_str(&url.replace("/", "").replace(":", "").replace(".", ""));
+
     path
 }
