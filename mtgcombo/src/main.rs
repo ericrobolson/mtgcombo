@@ -35,9 +35,8 @@ fn adder(num: i32) -> anyhow::Result<Repl<'static>> {
         (X:i32, Y:i32) => |x, y| {
             println!("{} + {} = {}", x, y, x + y);
 
-            adder(x + y + num)?.run()?;
             
-            Ok(CommandStatus::Done)
+            Ok(CommandStatus::Quit)
         }
     };
 
@@ -47,14 +46,6 @@ fn adder(num: i32) -> anyhow::Result<Repl<'static>> {
 }
 
 fn main() -> anyhow::Result<()> {
-    adder(0)?.run().context("Critical REPL Error at adder")?;
-    // New code
-    let mut repl = matryoshka("root".into())?;
-    repl.run().context("Critical REPL Error at root")?;
-
-    todo!();
-    // Old code
-
     io::init_dirs();
     let mut db = db::Db::new();
 
@@ -79,8 +70,9 @@ fn main() -> anyhow::Result<()> {
             }
         }
     }
-    
-    let mut repl = Repl::builder()
+
+    let mut builder = Repl::builder();        
+    let mut repl = builder 
         .add(
             "hello",
             command! {
